@@ -83,3 +83,86 @@ li {
 }
 
 /*Main*/
+.main-content {
+  background-image: url(/img/main_bg_hero.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+.main-container {
+  padding-top: 80px;
+}
+.main-info h1 {
+  color: var(--color-primary);
+  font-family: "Mohave", sans-serif;
+  font-size: 50px;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 78px;
+}
+.main-info p{
+  color: var(--color-primary);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  margin-bottom: 20px;
+}
+.main-info strong {
+  color: var(--color-primary);
+  font-family: "Mohave", sans-serif;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 44px;
+}
+.main-btn-car {
+  display: flex;
+  gap: 22px;
+  margin-top: 24px;
+}
+.main-btn-3 {
+  background-color: var(--main-botao);
+  border-radius: 32px;
+  border: none;
+  color: var(--color-primary);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  width: 234px;
+  height: 56px;
+  transition: 0.5s;
+}
+.main-btn-3:hover {
+  scale: 1.1;
+}
+.main---info {
+  display: flex;
+  gap: 16px;
+  margin-top: 10px;
+}
+.main---info p{
+ margin-top: 14px;
+}
+.main-btn {
+  display: flex;
+  margin-bottom: 24px;
+}
+.main-btn-1 {
+  background-color: var(--main-ps5);
+  border-radius:  4px 0 0 4px;
+  border: none;
+  color: #C0C0CC;
+  font-size: 12px;
+  font-weight: 400;
+  width: 150px;
+  height: 30px;
+} 
+.main-btn-2 {
+  background-color: #25252E;
+  border-radius:  0  4px 4px 0;
+  border: none;
+  color: var(--color-primary);
+  font-size: 12px;
+  font-weight: 500;
+  width: 42px;
+  height: 30px;
+} 
