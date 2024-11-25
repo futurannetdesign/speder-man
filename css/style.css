@@ -7,15 +7,76 @@
   --main-botao: #F55827;
   --header: #000407E5;
   --body-background:#000;
+  --color-primary:#FFF;
+  --size-primary:14px;
+  --font-family: "Roboto", sans-serif;
 }
 body {
   width: 100%;
   max-width: 1440px;
   background-color: var(--body-background);
+  font-family: var(--font-family);
+  font-size: var(--size-primary);
+  color: var(--color-primary);
 }
 a {
   text-decoration: none;
 }
 li {
   list-style: none;
+}
+.container {
+  width: 100%;
+  max-width: 1024px;
+  margin: auto;
+}
+
+/*Header*/
+.header {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  height: 72px;
+  background-color: var(--header);
+}
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  justify-items: center;
+  align-items: center;
+}
+.header-content img {
+ height: 26px;
+ transition: 0.5s;
+}
+.header-content img:hover {
+  scale: 1.1;
+}
+.header-nav {
+  display: flex;
+  gap: 48px;
+  
+}
+.header-nav li a {
+  color: var(--color-primary);
+  font-size: var(--size-primary);
+  font-weight: 500;
+  line-height: 21px;
+  transition: 0.5s;
+}
+.header-nav li a:hover {
+  color: #F55827;
+}
+.header-btn {
+  border-radius: 32px;
+  border: solid 2px #FFF;
+  background-color: transparent;
+  color: var(--color-primary);
+  width: 184px;
+  height: 40px;
+  transition: 0.5s;
+}
+.header-btn:hover {
+  scale: 1.2;
 }
