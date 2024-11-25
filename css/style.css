@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --main-botao: #F55827;
+  --header: #000407E5;
+  --body-background:#000;
+}
+body {
+  width: 100%;
+  max-width: 1440px;
+  background-color: var(--body-background);
+}
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
