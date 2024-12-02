@@ -84,7 +84,7 @@ li {
 
 /*Main*/
 .main-content {
-  background-image: url(/img/main_bg_hero.png);
+  background-image: url(../img/main_bg_hero.png);
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
